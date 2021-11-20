@@ -59,5 +59,8 @@ else:
     second= finalistOne
 
 # Print the order from highest to lowest
-list = [first,second,third,fourth]
-print(list)
+
+print(f"\n{first} is the first number")
+print(f"{second} is the second number")
+print(f"{third} is the third number")
+print(f"{fourth} is the fourth number")
