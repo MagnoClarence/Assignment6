@@ -10,8 +10,8 @@ while 1:
     points = 0
 
     for x in range(10):
-        randomOne = random.randint(0, 99)
-        randomTwo = random.randint(0, 99)
+        randomOne = random.randint(0, 100)
+        randomTwo = random.randint(0, 100)
         randomAdded = randomOne + randomTwo # The program calculates the right answer
         
         answer = int(input(f"what is {randomOne} + {randomTwo}? ")) # Asks the user for their answer
